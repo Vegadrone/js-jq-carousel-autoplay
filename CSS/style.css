@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(36, 22, 50);
+}
+
+.ms_img {
+    height: 600px;
+    width: 100%;
+    display: none;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.active{
+    display: block;
+}
+
+.ms_border {
+    border: 20px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#previous-btn{
+    position:absolute;
+    left: 100px;
+    top: 280px;
+}
+
+#next-btn{
+    position: absolute;
+    right: 100px;
+    top:280px;
+}
